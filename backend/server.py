@@ -178,8 +178,8 @@ async def get_about_info():
                 "phone": "+91 9006113140",
                 "social": {
                     "github": "https://github.com/MG14-3",
-                    "linkedin": "https://linkedin.com/in/mangalamshrivastava",
-                    "twitter": ""
+                    "linkedin": "www.linkedin.com/in/mangalam-shrivastava-68681b294",
+                    "twitter": "https://x.com/MG14_3"
                 }
             }
         return {
