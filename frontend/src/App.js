@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import profileImg from './assets/1696350470649.png';
 
 function App() {
   const [formData, setFormData] = useState({
@@ -108,9 +109,8 @@ function App() {
         
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
           <div className="mb-8">
-            ~
             <img 
-              src="frontend\src\assets\1696350470649.png" 
+              src={profileImg} 
               alt="Profile" 
               className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-lg"
             />
